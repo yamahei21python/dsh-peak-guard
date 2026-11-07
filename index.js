@@ -14,7 +14,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-export const name = "deepseek-peak-guard";
+export const name = "peak-guard";
 
 const DEFAULT_PROVIDERS = ["opencode-go"];
 const DEFAULT_MODELS_URL = "https://opencode.ai/inference/go/v1/models";

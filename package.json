@@ -1,5 +1,5 @@
 {
-  "name": "dsh-deepseek-peak-guard",
+  "name": "dsh-peak-guard",
   "version": "0.1.0",
   "description": "DeepSeek Harness bundle that blocks peak-priced DeepSeek calls (auto-detected from the provider model catalog) until manually bypassed.",
   "type": "module",
@@ -31,11 +31,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yamahei21python/dsh-deepseek-peak-guard.git"
+    "url": "git+https://github.com/yamahei21python/dsh-peak-guard.git"
   },
-  "homepage": "https://github.com/yamahei21python/dsh-deepseek-peak-guard#readme",
+  "homepage": "https://github.com/yamahei21python/dsh-peak-guard#readme",
   "bugs": {
-    "url": "https://github.com/yamahei21python/dsh-deepseek-peak-guard/issues"
+    "url": "https://github.com/yamahei21python/dsh-peak-guard/issues"
   },
   "engines": {
     "dsh": ">=0.2.0-rc.1 <0.3.0"

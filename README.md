@@ -1,4 +1,4 @@
-# dsh-deepseek-peak-guard
+# dsh-peak-guard
 
 DeepSeek Harness (DSH) 用のピーク料金ガード。**使用中モデルの料金カタログを読み、ピーク倍率が適用される時間だけリクエストを停止**する。手動で解除しない限りブロックされる。
 
@@ -16,13 +16,13 @@ DeepSeek Harness (DSH) 用のピーク料金ガード。**使用中モデルの�
 npm (recommended):
 
 ```bash
-dsh plugin --profile web add dsh-deepseek-peak-guard
+dsh plugin --profile web add dsh-peak-guard
 ```
 
 GitHub (no registry):
 
 ```bash
-dsh plugin --profile web add github:yamahei21python/dsh-deepseek-peak-guard
+dsh plugin --profile web add github:yamahei21python/dsh-peak-guard
 ```
 
 A bundle install adds the guard row to the profile; no manual `cordis.patch.yml` insert is needed. Restart `dsh`.
@@ -113,7 +113,7 @@ PEAK_GUARD_FORCE=off  dsh web   # never block
 Optional plugin config (`cordis.patch.yml` row can override):
 
 ```yaml
-- id: deepseek-peak-guard
+- id: peak-guard
   config:
     providers: [opencode-go]
     modelsUrl: https://opencode.ai/inference/go/v1/models
