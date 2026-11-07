@@ -1,0 +1,5 @@
+# DeepSeek Harness bundle: install the guard row.
+# The provider row itself stays user-owned (API key reference, baseURL, models).
+- insert:
+    - id: deepseek-peak-guard
+      name: dsh-deepseek-peak-guard

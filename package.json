@@ -1,0 +1,48 @@
+{
+  "name": "dsh-deepseek-peak-guard",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness bundle that blocks peak-priced DeepSeek calls (auto-detected from the provider model catalog) until manually bypassed.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "dsh-peak": "./bin/dsh-peak.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "bin/dsh-peak.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "deepseek",
+    "opencode-go",
+    "peak",
+    "cost",
+    "guard",
+    "plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamahei21python/dsh-deepseek-peak-guard.git"
+  },
+  "homepage": "https://github.com/yamahei21python/dsh-deepseek-peak-guard#readme",
+  "bugs": {
+    "url": "https://github.com/yamahei21python/dsh-deepseek-peak-guard/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.1 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
