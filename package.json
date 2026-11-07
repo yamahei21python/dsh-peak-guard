@@ -8,7 +8,7 @@
     ".": "./index.js"
   },
   "bin": {
-    "dsh-peak": "./bin/dsh-peak.js"
+    "dsh-peak": "bin/dsh-peak.js"
   },
   "files": [
     "index.js",
